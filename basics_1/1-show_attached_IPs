@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Dispalys the sctive IPv4 addresses in the current system
+
+ifconfig | grep 'inet ' | awk '{print $2}'
