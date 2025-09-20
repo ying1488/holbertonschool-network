@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#calls the netstat command to display traffic in system ports
+netstat
