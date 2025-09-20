@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # updates the IP addresses in /etc/hosts for localhost and facebook.com
 export HOSTALIASES=~/.hosts
-echo '127.0.0.2 localhost' | sudo tee -a /.hosts
-echo '8.8.8.8 facebook.com'| sudo tee -a /.hosts
+echo '127.0.0.2 locahost' | sudo tee -a /.hosts
+echo '8.8.8.8 facebook.com' | sudo tee -a /.hosts
